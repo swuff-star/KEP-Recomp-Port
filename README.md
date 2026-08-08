@@ -1,26 +1,39 @@
 # KEP Port Overview
 an unofficial port of "Kanto Expansion Pak"!!! i do not know how "complete" this ever truly will be, and it may deviate from the source in ways where it makes sense to take advantage of the recomps' features (e.g. including the expanded baby dex, cutting specific fixes in favor of letting users pick their own from other mods), but the overall intent is to port the gameplay and story of KEP as 1:1 as possible.
 
-WHAT'S DONE SO FAR
+## WHAT'S DONE SO FAR
 ✅ new pokemon data ported (bsts, movepools, sprites, cries, palettes, dex data ... all of it yippee)
+
 ✅ old pokemon data ported (the above but for vanilla's dex; mostly just level up move adds or evos)
+
 ✅ dex display updated to 251 + KEP ordering
+
 ✅ types ported (fairy, steel, dark)
+
 ✅ moves ported (all new fairy/steel/dark attacks, including anims/sounds for them)
+
 ✅ wild encounter data ported
+
 ✅ trainer team data ported
 
-TO DO
+## TO DO
 ❌ new NPCs (this is so fucking broad- new npc trainers on routes, new talkable npcs in towns, new in-game traders...)
+
 ❌ update old NPCs
+
 ❌ new maps
+
 ❌ new events
+
 ❌ item placement/obtainability (likely falls into porting NPCs and events rather than its own task?)
+
 ❌ new music
+
 ❌ there will be more
 
-STRETCH
+## STRETCH
 ❌ babydex expansion
+
 ❌ compat with other pokemon-adding mods (e.g. https://github.com/1Jamie/Kanto-Reforged), but only if there isn't better official support for this by then
 
 # KEP Port Credits
