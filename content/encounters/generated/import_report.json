@@ -1,0 +1,2216 @@
+{
+  "importerVersion": "2026-08-08-v1",
+  "kep": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack",
+  "mod": "C:\\Users\\hanan\\Documents\\GitHub\\gen1recomp\\mods\\kepport",
+  "mapsGenerated": 254,
+  "mapsWithEncounters": 77,
+  "mapsWithoutEncounters": 177,
+  "uniqueWildTablesParsed": 75,
+  "sharedWildTables": [
+    "BrunswickGrottoWildMons",
+    "CelesteHillWildMons",
+    "CinnabarVolcanoWildMons",
+    "NothingWildMons",
+    "SeaRoutesWildMons"
+  ],
+  "pokemonReferences": [
+    "ABRA",
+    "AERODACTYL",
+    "ARBOK",
+    "ARCANINE_H",
+    "BALUMBA",
+    "BEEDRILL",
+    "BELLSPROUT",
+    "BITTYBAT",
+    "BLASTOISE",
+    "BLASTYKE",
+    "BLOTTLE",
+    "BULBASAUR",
+    "BUTTERFREE",
+    "BUU",
+    "CACTORMUS",
+    "CARAPTHOR",
+    "CATERPIE",
+    "CHANSEY",
+    "CHARMANDER",
+    "CHEEP",
+    "CLEFABLE",
+    "CLEFAIRY",
+    "COINPUR",
+    "CROAKOZUNA",
+    "CROBAT",
+    "CUBONE",
+    "DECILLA",
+    "DEWGONG",
+    "DIGLETT",
+    "DITTO",
+    "DODRIO",
+    "DODUO",
+    "DRAGONAIR",
+    "DROWZEE",
+    "DUGTRIO",
+    "EEVEE",
+    "EKANS",
+    "ELECTABUZZ",
+    "ELECTRODE",
+    "ELECTRODE_H",
+    "EXEGGCUTE",
+    "EXEGGUTOR",
+    "FARFETCHD",
+    "FEAROW",
+    "GAOTORA",
+    "GASTLY",
+    "GAVILLAIN",
+    "GENGAR",
+    "GENTLARVA",
+    "GEODUDE",
+    "GLOOM",
+    "GOLBAT",
+    "GOLDEEN",
+    "GOLDUCK",
+    "GORILLAIMO",
+    "GOROTORA",
+    "GRAVELER",
+    "GRIMER",
+    "GROWLITHE",
+    "GUARDIA",
+    "GYARADOS",
+    "HAUNTER",
+    "HITMONCHAN",
+    "HITMONLEE",
+    "HITMONTOP",
+    "HORSEA",
+    "HYPNO",
+    "JABETTA",
+    "JIGGLYPUFF",
+    "JYNX",
+    "KABUTO",
+    "KADABRA",
+    "KAKUNA",
+    "KANGASKHAN",
+    "KINGLER",
+    "KLEAVOR",
+    "KOFFING",
+    "KOLTA",
+    "KOTORA",
+    "KRABBY",
+    "LAPRAS",
+    "LICKITUNG",
+    "LUXWAN",
+    "MACHOKE",
+    "MACHOP",
+    "MAGMAR",
+    "MAGNEMITE",
+    "MAGNETITE",
+    "MAGNETON",
+    "MANKEY",
+    "MAROWAK",
+    "MEOWTH",
+    "METAPOD",
+    "MINISTARE",
+    "MR_MIME",
+    "MUK",
+    "NIDORAN_F",
+    "NIDORAN_M",
+    "NIDOREIGN",
+    "NIDORINA",
+    "NIDORINO",
+    "NINETALES",
+    "ODDISH",
+    "OMANYTE",
+    "ONIX",
+    "PARAS",
+    "PARASECT",
+    "PENDRAKEN",
+    "PIDGEOT",
+    "PIDGEOTTO",
+    "PIDGEY",
+    "PIKACHU",
+    "PINSIR",
+    "POLIWHIRL",
+    "PONYTA",
+    "PRIMEAPE",
+    "PSYDUCK",
+    "RAICHU",
+    "RAMOOSE",
+    "RAPIDASH",
+    "RATICATE",
+    "RATTATA",
+    "RHYDON",
+    "RHYHORN",
+    "RIBBITO",
+    "SANDSHREW",
+    "SANDSLASH",
+    "SANDY_SHOCKS",
+    "SCREAM_TAIL",
+    "SCYTHER",
+    "SEAKING",
+    "SEEL",
+    "SHARPOON",
+    "SHELLDER",
+    "SLOWBRO",
+    "SLOWPOKE",
+    "SNORLAX",
+    "SPEAROW",
+    "SQUEAMATA",
+    "SQUIRTLE",
+    "STARYU",
+    "STEELIX",
+    "TANGELA",
+    "TAUROS",
+    "TENTACOOL",
+    "TENTACRUEL",
+    "TOEDSCOOL",
+    "TOEDSCRUEL",
+    "TOTARTLE",
+    "TRAMPEL",
+    "VENOMOTH",
+    "VENONAT",
+    "VOLTORB",
+    "VULPIII",
+    "VULPIX",
+    "WARTORTLE",
+    "WEEDLE",
+    "WEEPINBELL",
+    "WEEZING",
+    "WEIRDUCK",
+    "WIGGLYTUFF",
+    "WIGLETT",
+    "WUGTRIO",
+    "ZUBAT"
+  ],
+  "maps": [
+    {
+      "map": "PALLET_TOWN",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VIRIDIAN_CITY",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "PEWTER_CITY",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CERULEAN_CITY",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VERMILION_CITY",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "LAVENDER_TOWN",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_CITY",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_UNIVERSITY_OUTSIDE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "FUCHSIA_CITY",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SAFFRON_CITY",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CINNABAR_ISLAND",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "INDIGO_PLATEAU",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CITRINE_CITY",
+      "sourceTable": "CitrineWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 10,
+      "waterSlots": 10
+    },
+    {
+      "map": "ROUTE_1",
+      "sourceTable": "Route1WildMons",
+      "grassRate": 25,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_2",
+      "sourceTable": "Route2WildMons",
+      "grassRate": 25,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_3",
+      "sourceTable": "Route3WildMons",
+      "grassRate": 20,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_4",
+      "sourceTable": "Route4WildMons",
+      "grassRate": 20,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_5",
+      "sourceTable": "Route5WildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_6",
+      "sourceTable": "Route6WildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 10,
+      "waterSlots": 10
+    },
+    {
+      "map": "ROUTE_7",
+      "sourceTable": "Route7WildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_8",
+      "sourceTable": "Route8WildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_9",
+      "sourceTable": "Route9WildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_10",
+      "sourceTable": "Route10WildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_11",
+      "sourceTable": "Route11WildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_12",
+      "sourceTable": "Route12WildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_13",
+      "sourceTable": "Route13WildMons",
+      "grassRate": 20,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_14",
+      "sourceTable": "Route14WildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_15",
+      "sourceTable": "Route15WildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_16",
+      "sourceTable": "Route16WildMons",
+      "grassRate": 25,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_17",
+      "sourceTable": "Route17WildMons",
+      "grassRate": 25,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_18",
+      "sourceTable": "Route18WildMons",
+      "grassRate": 25,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_19",
+      "sourceTable": "SeaRoutesWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 5,
+      "waterSlots": 10
+    },
+    {
+      "map": "ROUTE_20",
+      "sourceTable": "SeaRoutesWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 5,
+      "waterSlots": 10
+    },
+    {
+      "map": "ROUTE_21",
+      "sourceTable": "Route21WildMons",
+      "grassRate": 25,
+      "grassSlots": 10,
+      "waterRate": 5,
+      "waterSlots": 10
+    },
+    {
+      "map": "ROUTE_22",
+      "sourceTable": "Route22WildMons",
+      "grassRate": 25,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_23",
+      "sourceTable": "Route23WildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_24",
+      "sourceTable": "Route24WildMons",
+      "grassRate": 25,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_25",
+      "sourceTable": "Route25WildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "BRUNSWICK_TRAIL",
+      "sourceTable": "BrunswickTrailMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "BILLS_GARDEN",
+      "sourceTable": "BillsGardenWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 10,
+      "waterSlots": 10
+    },
+    {
+      "map": "REDS_HOUSE_1F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "REDS_HOUSE_2F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "BLUES_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "OAKS_LAB",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VIRIDIAN_POKECENTER",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VIRIDIAN_MART",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VIRIDIAN_SCHOOL_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VIRIDIAN_NICKNAME_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VIRIDIAN_GYM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "DIGLETTS_CAVE_ROUTE_2",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VIRIDIAN_FOREST_NORTH_GATE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_2_TRADE_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_2_GATE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VIRIDIAN_FOREST_SOUTH_GATE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VIRIDIAN_FOREST",
+      "sourceTable": "ViridianForestWildMons",
+      "grassRate": 8,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "MUSEUM_1F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "MUSEUM_2F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "PEWTER_GYM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "PEWTER_NIDORAN_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "PEWTER_MART",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "PEWTER_SPEECH_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "PEWTER_POKECENTER",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "MT_MOON_1F",
+      "sourceTable": "MtMoon1FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "MT_MOON_B1F",
+      "sourceTable": "MtMoonB1FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "MT_MOON_B2F",
+      "sourceTable": "MtMoonB2FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CERULEAN_TRASHED_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CERULEAN_TRADE_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CERULEAN_POKECENTER",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CERULEAN_GYM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "BIKE_SHOP",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CERULEAN_MART",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "MT_MOON_POKECENTER",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VIRIDIAN_PRE_GYM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_5_GATE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "UNDERGROUND_PATH_ROUTE_5",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "DAYCARE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_6_GATE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "UNDERGROUND_PATH_ROUTE_6",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELESTE_HILL",
+      "sourceTable": "CelesteHillWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_7_GATE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "UNDERGROUND_PATH_ROUTE_7",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CITRINE_ROCKET_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_8_GATE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "UNDERGROUND_PATH_ROUTE_8",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROCK_TUNNEL_POKECENTER",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROCK_TUNNEL_1F",
+      "sourceTable": "RockTunnel1FWildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "POWER_PLANT",
+      "sourceTable": "PowerPlantWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_11_GATE_1F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "DIGLETTS_CAVE_ROUTE_11",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_11_GATE_2F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_12_GATE_1F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "BILLS_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VERMILION_POKECENTER",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "POKEMON_FAN_CLUB",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VERMILION_MART",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VERMILION_GYM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VERMILION_PIDGEY_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VERMILION_DOCK",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SS_ANNE_1F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SS_ANNE_2F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SS_ANNE_3F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SS_ANNE_B1F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SS_ANNE_BOW",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SS_ANNE_KITCHEN",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SS_ANNE_CAPTAINS_ROOM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SS_ANNE_1F_ROOMS",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SS_ANNE_2F_ROOMS",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SS_ANNE_B1F_ROOMS",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SILPH_GAUNTLET_1F",
+      "sourceTable": "Gauntlet1FWildMons",
+      "grassRate": 8,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SILPH_GAUNTLET_2F",
+      "sourceTable": "Gauntlet2FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SILPH_GAUNTLET_3F",
+      "sourceTable": "Gauntlet3FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VICTORY_ROAD_1F",
+      "sourceTable": "VictoryRoad1FWildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "BRUNSWICK_GROTTO",
+      "sourceTable": "BrunswickGrottoWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SILPH_GAUNTLET_5F",
+      "sourceTable": "Gauntlet5FWildMons",
+      "grassRate": 20,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SILPH_GAUNTLET_6F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SILPH_GAUNTLET_7F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "LANCES_ROOM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "FARAWAY_ISLAND_OUTSIDE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "FARAWAY_ISLAND_INSIDE",
+      "sourceTable": "FarawayIslandInsideMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "POKEMON_MANSION_B2F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "MT_MOON_CRATER",
+      "sourceTable": "MtMoonCraterMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "HALL_OF_FAME",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "UNDERGROUND_PATH_NORTH_SOUTH",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CHAMPIONS_ROOM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "UNDERGROUND_PATH_WEST_EAST",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_MART_1F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_MART_2F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_MART_3F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_MART_4F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_MART_ROOF",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_MART_ELEVATOR",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_MANSION_1F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_MANSION_2F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_MANSION_3F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_MANSION_ROOF",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_MANSION_ROOF_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_POKECENTER",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_GYM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "GAME_CORNER",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_MART_5F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "GAME_CORNER_PRIZE_ROOM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_DINER",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_CHIEF_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_HOTEL",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "LAVENDER_POKECENTER",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "POKEMON_TOWER_1F",
+      "sourceTable": "PokemonTower1FWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "POKEMON_TOWER_2F",
+      "sourceTable": "PokemonTower2FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SILPH_GAUNTLET_4F",
+      "sourceTable": "Gauntlet4FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELESTE_HILL_GATE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "POKEMON_TOWER_5F",
+      "sourceTable": "PokemonTower5FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "POKEMON_TOWER_6F",
+      "sourceTable": "PokemonTower6FWildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "POKEMON_TOWER_7F",
+      "sourceTable": "PokemonTower7FWildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "MR_FUJIS_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "LAVENDER_MART",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "LAVENDER_CUBONE_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "FUCHSIA_MART",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "FUCHSIA_BILLS_GRANDPAS_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "FUCHSIA_POKECENTER",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "WARDENS_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SAFARI_ZONE_GATE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "FUCHSIA_GYM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "FUCHSIA_MEETING_ROOM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SEAFOAM_ISLANDS_B1F",
+      "sourceTable": "SeafoamIslandsB1FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SEAFOAM_ISLANDS_B2F",
+      "sourceTable": "SeafoamIslandsB2FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SEAFOAM_ISLANDS_B3F",
+      "sourceTable": "SeafoamIslandsB3FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 5,
+      "waterSlots": 10
+    },
+    {
+      "map": "SEAFOAM_ISLANDS_B4F",
+      "sourceTable": "SeafoamIslandsB4FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 5,
+      "waterSlots": 10
+    },
+    {
+      "map": "CITRINE_TRADEBACK_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CITRINE_POKECENTER",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "POKEMON_MANSION_1F",
+      "sourceTable": "PokemonMansion1FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CINNABAR_GYM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CINNABAR_LAB",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CINNABAR_LAB_TRADE_ROOM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CINNABAR_LAB_METRONOME_ROOM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CINNABAR_LAB_FOSSIL_ROOM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CINNABAR_POKECENTER",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CINNABAR_MART",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "INDIGO_PLATEAU_LOBBY",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "COPYCATS_HOUSE_1F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "COPYCATS_HOUSE_2F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "FIGHTING_DOJO",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SAFFRON_GYM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SAFFRON_PIDGEY_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SAFFRON_MART",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SILPH_CO_1F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SAFFRON_POKECENTER",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "MR_PSYCHICS_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_15_GATE_1F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_15_GATE_2F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_16_GATE_1F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_16_GATE_2F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_16_FLY_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "FISHING_GURU_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_18_GATE_1F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_18_GATE_2F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SEAFOAM_ISLANDS_1F",
+      "sourceTable": "SeafoamIslands1FWildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_22_GATE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VICTORY_ROAD_2F",
+      "sourceTable": "VictoryRoad2FWildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_12_GATE_2F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VERMILION_TRADE_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "DIGLETTS_CAVE",
+      "sourceTable": "DiglettsCaveWildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 5,
+      "waterSlots": 10
+    },
+    {
+      "map": "VICTORY_ROAD_3F",
+      "sourceTable": "VictoryRoad3FWildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROCKET_HIDEOUT_B1F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROCKET_HIDEOUT_B2F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROCKET_HIDEOUT_B3F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROCKET_HIDEOUT_B4F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROCKET_HIDEOUT_ELEVATOR",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CITRINE_MART",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "GARNET_CAVERN_1F",
+      "sourceTable": "GarnetCavern1FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "GARNET_CAVERN_B1F",
+      "sourceTable": "GarnetCavernB1FWildMons",
+      "grassRate": 5,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "VERMILION_FERRY_DOCK",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SILPH_CO_3F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CITRINE_FERRY_DOCK",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SILPH_CO_5F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SEAGALLOP_FERRY",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SILPH_CO_7F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "POKEMON_MANSION_2F",
+      "sourceTable": "PokemonMansion2FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "POKEMON_MANSION_3F",
+      "sourceTable": "PokemonMansion3FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "POKEMON_MANSION_B1F",
+      "sourceTable": "PokemonMansionB1FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SAFARI_ZONE_EAST",
+      "sourceTable": "SafariZoneEastWildMons",
+      "grassRate": 30,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SAFARI_ZONE_NORTH",
+      "sourceTable": "SafariZoneNorthWildMons",
+      "grassRate": 30,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SAFARI_ZONE_WEST",
+      "sourceTable": "SafariZoneWestWildMons",
+      "grassRate": 30,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SAFARI_ZONE_CENTER",
+      "sourceTable": "SafariZoneCenterWildMons",
+      "grassRate": 30,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SAFARI_ZONE_CENTER_REST_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SAFARI_ZONE_SECRET_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SAFARI_ZONE_WEST_REST_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SAFARI_ZONE_EAST_REST_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SAFARI_ZONE_NORTH_REST_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CERULEAN_CAVE_2F",
+      "sourceTable": "CeruleanCave2FWildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CERULEAN_CAVE_B1F",
+      "sourceTable": "CeruleanCaveB1FWildMons",
+      "grassRate": 25,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CERULEAN_CAVE_1F",
+      "sourceTable": "CeruleanCave1FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "NAME_RATERS_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CERULEAN_BADGE_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CINNABAR_VOLCANO",
+      "sourceTable": "CinnabarVolcanoWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CINNABAR_VOLCANO_FLOORS",
+      "sourceTable": "CinnabarVolcanoWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROUTE_10_GATE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "SILPH_CO_11F",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "FARAWAY_FERRY_DOCK",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "GARNET_CAVERN_2F",
+      "sourceTable": "GarnetCavern2FWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "UNDERWATER_TUNNEL",
+      "sourceTable": "UnderwaterTunnelWildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 5,
+      "waterSlots": 10
+    },
+    {
+      "map": "TRADE_CENTER",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "COLOSSEUM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_UNIVERSITY_INSIDE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELADON_UNIVERSITY_POKECENTER",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "LORELEIS_ROOM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "BRUNOS_ROOM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "AGATHAS_ROOM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "ROCK_TUNNEL_B1F",
+      "sourceTable": "RockTunnelB1FWildMons",
+      "grassRate": 15,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "GIOVANNIS_ROOM",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "BATTLE_TENT",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "MT_MOON_SQUARE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "MT_MOON_SQUARE_HOUSE",
+      "sourceTable": "NothingWildMons",
+      "grassRate": 0,
+      "grassSlots": 0,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELESTE_HILL_CAVE",
+      "sourceTable": "CelesteHillCaveWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "CELESTE_HILL_OUTSIDE",
+      "sourceTable": "CelesteHillWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    },
+    {
+      "map": "BRUNSWICK_GLADE",
+      "sourceTable": "BrunswickGrottoWildMons",
+      "grassRate": 10,
+      "grassSlots": 10,
+      "waterRate": 0,
+      "waterSlots": 0
+    }
+  ]
+}

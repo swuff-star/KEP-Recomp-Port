@@ -1,0 +1,1978 @@
+{
+  "importerVersion": "2026-08-08-v1",
+  "kep": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack",
+  "gen1": "C:\\Users\\hanan\\Documents\\GitHub\\gen1recomp",
+  "mod": "C:\\Users\\hanan\\Documents\\GitHub\\gen1recomp\\mods\\kepport",
+  "trainerClassesGenerated": 53,
+  "vanillaClassesPatched": 46,
+  "kepClassesRegistered": 7,
+  "partiesImported": 536,
+  "partyPokemonSlots": 1773,
+  "aiNotes": {
+    "classesUsingLayer4": [
+      "OPP_PROF_OAK",
+      "OPP_CHIEF",
+      "OPP_SCIENTIST",
+      "OPP_COOLTRAINER_M",
+      "OPP_COOLTRAINER_F",
+      "OPP_MISTY",
+      "OPP_ERIKA",
+      "OPP_KOGA",
+      "OPP_SABRINA",
+      "OPP_RIVAL3",
+      "OPP_LORELEI",
+      "OPP_AGATHA",
+      "OPP_LANCE",
+      "OPP_JACK",
+      "OPP_LEADER_GIOVANNI"
+    ],
+    "unsupportedSpecialRoutineClasses": [
+      "OPP_PROF_OAK",
+      "OPP_CHIEF"
+    ],
+    "note": "aiMods are copied from KEP. Gen1Recomp currently provides the vanilla move-choice layer implementations, while KEP modifies those layers and adds layer 4. Exact KEP trainer AI behavior therefore remains a later code/AI import task. New classes that reuse BlackbeltAI or SabrinaAI are linked through trainer.aiClass."
+  },
+  "trainers": [
+    {
+      "class": "YOUNGSTER",
+      "id": "OPP_YOUNGSTER",
+      "mode": "patch",
+      "name": "YOUNGSTER",
+      "picLabel": "YoungsterPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\youngster.png",
+      "baseMoney": 15,
+      "partyTable": "YoungsterData",
+      "partyCount": 13,
+      "aiMods": [
+        1
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "BUG_CATCHER",
+      "id": "OPP_BUG_CATCHER",
+      "mode": "patch",
+      "name": "BUG CATCHER",
+      "picLabel": "BugCatcherPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\bugcatcher.png",
+      "baseMoney": 10,
+      "partyTable": "BugCatcherData",
+      "partyCount": 14,
+      "aiMods": [
+        1
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "LASS",
+      "id": "OPP_LASS",
+      "mode": "patch",
+      "name": "LASS",
+      "picLabel": "LassPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\lass.png",
+      "baseMoney": 15,
+      "partyTable": "LassData",
+      "partyCount": 19,
+      "aiMods": [
+        1
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "SAILOR",
+      "id": "OPP_SAILOR",
+      "mode": "patch",
+      "name": "SAILOR",
+      "picLabel": "SailorPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\sailor.png",
+      "baseMoney": 30,
+      "partyTable": "SailorData",
+      "partyCount": 9,
+      "aiMods": [
+        1,
+        3
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "JR_TRAINER_M",
+      "id": "OPP_JR_TRAINER_M",
+      "mode": "patch",
+      "name": "JR.TRAINER♂",
+      "picLabel": "JrTrainerMPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\jr.trainerm.png",
+      "baseMoney": 20,
+      "partyTable": "JrTrainerMData",
+      "partyCount": 9,
+      "aiMods": [
+        1
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "JR_TRAINER_F",
+      "id": "OPP_JR_TRAINER_F",
+      "mode": "patch",
+      "name": "JR.TRAINER♀",
+      "picLabel": "JrTrainerFPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\jr.trainerf.png",
+      "baseMoney": 20,
+      "partyTable": "JrTrainerFData",
+      "partyCount": 25,
+      "aiMods": [
+        1
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "POKEMANIAC",
+      "id": "OPP_POKEMANIAC",
+      "mode": "patch",
+      "name": "POKéMANIAC",
+      "picLabel": "PokemaniacPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\pokemaniac.png",
+      "baseMoney": 50,
+      "partyTable": "PokemaniacData",
+      "partyCount": 8,
+      "aiMods": [
+        1,
+        2,
+        3
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "SUPER_NERD",
+      "id": "OPP_SUPER_NERD",
+      "mode": "patch",
+      "name": "SUPER NERD",
+      "picLabel": "SuperNerdPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\supernerd.png",
+      "baseMoney": 25,
+      "partyTable": "SuperNerdData",
+      "partyCount": 14,
+      "aiMods": [
+        1,
+        2
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "HIKER",
+      "id": "OPP_HIKER",
+      "mode": "patch",
+      "name": "HIKER",
+      "picLabel": "HikerPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\hiker.png",
+      "baseMoney": 35,
+      "partyTable": "HikerData",
+      "partyCount": 15,
+      "aiMods": [
+        1
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "BIKER",
+      "id": "OPP_BIKER",
+      "mode": "patch",
+      "name": "BIKER",
+      "picLabel": "BikerPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\biker.png",
+      "baseMoney": 20,
+      "partyTable": "BikerData",
+      "partyCount": 16,
+      "aiMods": [
+        1
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "BURGLAR",
+      "id": "OPP_BURGLAR",
+      "mode": "patch",
+      "name": "BURGLAR",
+      "picLabel": "BurglarPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\burglar.png",
+      "baseMoney": 90,
+      "partyTable": "BurglarData",
+      "partyCount": 9,
+      "aiMods": [
+        1,
+        3
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "ENGINEER",
+      "id": "OPP_ENGINEER",
+      "mode": "patch",
+      "name": "ENGINEER",
+      "picLabel": "EngineerPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\engineer.png",
+      "baseMoney": 50,
+      "partyTable": "EngineerData",
+      "partyCount": 5,
+      "aiMods": [
+        1,
+        3
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "FISHER",
+      "id": "OPP_FISHER",
+      "mode": "patch",
+      "name": "FISHERMAN",
+      "picLabel": "FisherPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\fisher.png",
+      "baseMoney": 35,
+      "partyTable": "FisherData",
+      "partyCount": 13,
+      "aiMods": [
+        1,
+        3
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "SWIMMER",
+      "id": "OPP_SWIMMER",
+      "mode": "patch",
+      "name": "SWIMMER",
+      "picLabel": "SwimmerPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\swimmer.png",
+      "baseMoney": 15,
+      "partyTable": "SwimmerData",
+      "partyCount": 16,
+      "aiMods": [
+        1,
+        3
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "CUE_BALL",
+      "id": "OPP_CUE_BALL",
+      "mode": "patch",
+      "name": "CUE BALL",
+      "picLabel": "CueBallPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\cueball.png",
+      "baseMoney": 25,
+      "partyTable": "CueBallData",
+      "partyCount": 10,
+      "aiMods": [
+        1
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "GAMBLER",
+      "id": "OPP_GAMBLER",
+      "mode": "patch",
+      "name": "GAMBLER",
+      "picLabel": "GamblerPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\gambler.png",
+      "baseMoney": 70,
+      "partyTable": "GamblerData",
+      "partyCount": 7,
+      "aiMods": [
+        1
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "BEAUTY",
+      "id": "OPP_BEAUTY",
+      "mode": "patch",
+      "name": "BEAUTY",
+      "picLabel": "BeautyPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\beauty.png",
+      "baseMoney": 70,
+      "partyTable": "BeautyData",
+      "partyCount": 19,
+      "aiMods": [
+        1,
+        3
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "PSYCHIC_TR",
+      "id": "OPP_PSYCHIC_TR",
+      "mode": "patch",
+      "name": "PSYCHIC",
+      "picLabel": "PsychicPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\psychic.png",
+      "baseMoney": 10,
+      "partyTable": "PsychicData",
+      "partyCount": 5,
+      "aiMods": [
+        1,
+        2
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "ROCKER",
+      "id": "OPP_ROCKER",
+      "mode": "patch",
+      "name": "ROCKER",
+      "picLabel": "RockerPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\rocker.png",
+      "baseMoney": 25,
+      "partyTable": "RockerData",
+      "partyCount": 3,
+      "aiMods": [
+        1,
+        3
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "JUGGLER",
+      "id": "OPP_JUGGLER",
+      "mode": "patch",
+      "name": "JUGGLER",
+      "picLabel": "JugglerPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\juggler.png",
+      "baseMoney": 35,
+      "partyTable": "JugglerData",
+      "partyCount": 8,
+      "aiMods": [
+        1
+      ],
+      "aiUses": 3,
+      "aiRoutine": "JugglerAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "TAMER",
+      "id": "OPP_TAMER",
+      "mode": "patch",
+      "name": "TAMER",
+      "picLabel": "TamerPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\tamer.png",
+      "baseMoney": 40,
+      "partyTable": "TamerData",
+      "partyCount": 6,
+      "aiMods": [
+        1
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "BIRD_KEEPER",
+      "id": "OPP_BIRD_KEEPER",
+      "mode": "patch",
+      "name": "BIRD KEEPER",
+      "picLabel": "BirdKeeperPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\birdkeeper.png",
+      "baseMoney": 25,
+      "partyTable": "BirdKeeperData",
+      "partyCount": 17,
+      "aiMods": [
+        1
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "BLACKBELT",
+      "id": "OPP_BLACKBELT",
+      "mode": "patch",
+      "name": "BLACKBELT",
+      "picLabel": "BlackbeltPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\blackbelt.png",
+      "baseMoney": 25,
+      "partyTable": "BlackbeltData",
+      "partyCount": 9,
+      "aiMods": [
+        1
+      ],
+      "aiUses": 2,
+      "aiRoutine": "BlackbeltAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "RIVAL1",
+      "id": "OPP_RIVAL1",
+      "mode": "patch",
+      "name": "RIVAL1",
+      "picLabel": "Rival1Pic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\rival1.png",
+      "baseMoney": 35,
+      "partyTable": "Green1Data",
+      "partyCount": 15,
+      "aiMods": [
+        1
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "PROF_OAK",
+      "id": "OPP_PROF_OAK",
+      "mode": "patch",
+      "name": "PROF.OAK",
+      "picLabel": "ProfOakPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\prof.oak.png",
+      "baseMoney": 99,
+      "partyTable": "ProfOakData",
+      "partyCount": 5,
+      "aiMods": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "aiUses": 2,
+      "aiRoutine": "OakAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "CHIEF",
+      "id": "OPP_CHIEF",
+      "mode": "patch",
+      "name": "CHIEF",
+      "picLabel": "ChiefPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\chief.png",
+      "baseMoney": 99,
+      "partyTable": "ChiefData",
+      "partyCount": 2,
+      "aiMods": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "aiUses": 3,
+      "aiRoutine": "ChiefAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "SCIENTIST",
+      "id": "OPP_SCIENTIST",
+      "mode": "patch",
+      "name": "SCIENTIST",
+      "picLabel": "ScientistPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\scientist.png",
+      "baseMoney": 50,
+      "partyTable": "ScientistData",
+      "partyCount": 13,
+      "aiMods": [
+        1,
+        2,
+        4
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "GIOVANNI",
+      "id": "OPP_GIOVANNI",
+      "mode": "patch",
+      "name": "GIOVANNI",
+      "picLabel": "GiovanniPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\giovanni.png",
+      "baseMoney": 99,
+      "partyTable": "GiovanniData",
+      "partyCount": 2,
+      "aiMods": [
+        1,
+        2,
+        3
+      ],
+      "aiUses": 1,
+      "aiRoutine": "GiovanniAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "ROCKET",
+      "id": "OPP_ROCKET",
+      "mode": "patch",
+      "name": "ROCKET",
+      "picLabel": "RocketPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\rocket.png",
+      "baseMoney": 30,
+      "partyTable": "RocketData",
+      "partyCount": 41,
+      "aiMods": [
+        1
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "COOLTRAINER_M",
+      "id": "OPP_COOLTRAINER_M",
+      "mode": "patch",
+      "name": "COOLTRAINER♂",
+      "picLabel": "CooltrainerMPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\cooltrainerm.png",
+      "baseMoney": 35,
+      "partyTable": "CooltrainerMData",
+      "partyCount": 14,
+      "aiMods": [
+        1,
+        3,
+        4
+      ],
+      "aiUses": 2,
+      "aiRoutine": "CooltrainerMAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "COOLTRAINER_F",
+      "id": "OPP_COOLTRAINER_F",
+      "mode": "patch",
+      "name": "COOLTRAINER♀",
+      "picLabel": "CooltrainerFPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\cooltrainerf.png",
+      "baseMoney": 35,
+      "partyTable": "CooltrainerFData",
+      "partyCount": 6,
+      "aiMods": [
+        1,
+        3,
+        4
+      ],
+      "aiUses": 1,
+      "aiRoutine": "CooltrainerFAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "BRUNO",
+      "id": "OPP_BRUNO",
+      "mode": "patch",
+      "name": "BRUNO",
+      "picLabel": "BrunoPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\bruno.png",
+      "baseMoney": 99,
+      "partyTable": "BrunoData",
+      "partyCount": 2,
+      "aiMods": [
+        1,
+        2,
+        3
+      ],
+      "aiUses": 1,
+      "aiRoutine": "BrunoAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "BROCK",
+      "id": "OPP_BROCK",
+      "mode": "patch",
+      "name": "BROCK",
+      "picLabel": "BrockPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\brock.png",
+      "baseMoney": 99,
+      "partyTable": "BrockData",
+      "partyCount": 9,
+      "aiMods": [
+        1,
+        3
+      ],
+      "aiUses": 5,
+      "aiRoutine": "BrockAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "MISTY",
+      "id": "OPP_MISTY",
+      "mode": "patch",
+      "name": "MISTY",
+      "picLabel": "MistyPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\misty.png",
+      "baseMoney": 99,
+      "partyTable": "MistyData",
+      "partyCount": 9,
+      "aiMods": [
+        1,
+        3,
+        4
+      ],
+      "aiUses": 1,
+      "aiRoutine": "MistyAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "LT_SURGE",
+      "id": "OPP_LT_SURGE",
+      "mode": "patch",
+      "name": "LT.SURGE",
+      "picLabel": "LtSurgePic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\lt.surge.png",
+      "baseMoney": 99,
+      "partyTable": "LtSurgeData",
+      "partyCount": 9,
+      "aiMods": [
+        1,
+        2,
+        3
+      ],
+      "aiUses": 1,
+      "aiRoutine": "LtSurgeAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "ERIKA",
+      "id": "OPP_ERIKA",
+      "mode": "patch",
+      "name": "ERIKA",
+      "picLabel": "ErikaPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\erika.png",
+      "baseMoney": 99,
+      "partyTable": "ErikaData",
+      "partyCount": 9,
+      "aiMods": [
+        1,
+        3,
+        4
+      ],
+      "aiUses": 1,
+      "aiRoutine": "ErikaAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "KOGA",
+      "id": "OPP_KOGA",
+      "mode": "patch",
+      "name": "KOGA",
+      "picLabel": "KogaPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\koga.png",
+      "baseMoney": 99,
+      "partyTable": "KogaData",
+      "partyCount": 9,
+      "aiMods": [
+        1,
+        3,
+        4
+      ],
+      "aiUses": 2,
+      "aiRoutine": "KogaAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "BLAINE",
+      "id": "OPP_BLAINE",
+      "mode": "patch",
+      "name": "BLAINE",
+      "picLabel": "BlainePic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\blaine.png",
+      "baseMoney": 99,
+      "partyTable": "BlaineData",
+      "partyCount": 9,
+      "aiMods": [
+        1,
+        2,
+        3
+      ],
+      "aiUses": 2,
+      "aiRoutine": "BlaineAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "SABRINA",
+      "id": "OPP_SABRINA",
+      "mode": "patch",
+      "name": "SABRINA",
+      "picLabel": "SabrinaPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\sabrina.png",
+      "baseMoney": 99,
+      "partyTable": "SabrinaData",
+      "partyCount": 9,
+      "aiMods": [
+        1,
+        3,
+        4
+      ],
+      "aiUses": 1,
+      "aiRoutine": "SabrinaAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "GENTLEMAN",
+      "id": "OPP_GENTLEMAN",
+      "mode": "patch",
+      "name": "GENTLEMAN",
+      "picLabel": "GentlemanPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\gentleman.png",
+      "baseMoney": 70,
+      "partyTable": "GentlemanData",
+      "partyCount": 7,
+      "aiMods": [
+        1,
+        2
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "RIVAL2",
+      "id": "OPP_RIVAL2",
+      "mode": "patch",
+      "name": "RIVAL2",
+      "picLabel": "Rival2Pic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\rival2.png",
+      "baseMoney": 65,
+      "partyTable": "Green2Data",
+      "partyCount": 20,
+      "aiMods": [
+        1,
+        3
+      ],
+      "aiUses": 2,
+      "aiRoutine": "Rival2AI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "RIVAL3",
+      "id": "OPP_RIVAL3",
+      "mode": "patch",
+      "name": "RIVAL3",
+      "picLabel": "Rival3Pic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\rival3.png",
+      "baseMoney": 99,
+      "partyTable": "Green3Data",
+      "partyCount": 10,
+      "aiMods": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "aiUses": 3,
+      "aiRoutine": "Rival3AI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "LORELEI",
+      "id": "OPP_LORELEI",
+      "mode": "patch",
+      "name": "LORELEI",
+      "picLabel": "LoreleiPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\lorelei.png",
+      "baseMoney": 99,
+      "partyTable": "LoreleiData",
+      "partyCount": 2,
+      "aiMods": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "aiUses": 1,
+      "aiRoutine": "LoreleiAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "CHANNELER",
+      "id": "OPP_CHANNELER",
+      "mode": "patch",
+      "name": "CHANNELER",
+      "picLabel": "ChannelerPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\channeler.png",
+      "baseMoney": 30,
+      "partyTable": "ChannelerData",
+      "partyCount": 24,
+      "aiMods": [
+        1
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "AGATHA",
+      "id": "OPP_AGATHA",
+      "mode": "patch",
+      "name": "AGATHA",
+      "picLabel": "AgathaPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\agatha.png",
+      "baseMoney": 99,
+      "partyTable": "AgathaData",
+      "partyCount": 2,
+      "aiMods": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "aiUses": 1,
+      "aiRoutine": "AgathaAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "LANCE",
+      "id": "OPP_LANCE",
+      "mode": "patch",
+      "name": "LANCE",
+      "picLabel": "LancePic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\lance.png",
+      "baseMoney": 99,
+      "partyTable": "LanceData",
+      "partyCount": 2,
+      "aiMods": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "aiUses": 2,
+      "aiRoutine": "LanceAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "YUJIROU",
+      "id": "OPP_YUJIROU",
+      "mode": "register",
+      "name": "YUJIROU",
+      "picLabel": "YujirouPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\yujirou.png",
+      "baseMoney": 35,
+      "partyTable": "YujirouData",
+      "partyCount": 10,
+      "aiMods": [
+        1,
+        3
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "STUDENT",
+      "id": "OPP_STUDENT",
+      "mode": "register",
+      "name": "STUDENT",
+      "picLabel": "StudentPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\student.png",
+      "baseMoney": 10,
+      "partyTable": "StudentData",
+      "partyCount": 5,
+      "aiMods": [
+        1
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "FIREFIGHTER",
+      "id": "OPP_FIREFIGHTER",
+      "mode": "register",
+      "name": "FIREFIGHTER",
+      "picLabel": "FirefighterPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\firefighter.png",
+      "baseMoney": 25,
+      "partyTable": "FirefighterData",
+      "partyCount": 5,
+      "aiMods": [
+        1,
+        3
+      ],
+      "aiUses": 3,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "KOICHI",
+      "id": "OPP_KOICHI",
+      "mode": "register",
+      "name": "KOICHI",
+      "picLabel": "KoichiPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\koichi.png",
+      "baseMoney": 99,
+      "partyTable": "KoichiData",
+      "partyCount": 10,
+      "aiMods": [
+        1,
+        2,
+        3
+      ],
+      "aiUses": 2,
+      "aiRoutine": "BlackbeltAI",
+      "aiClassAlias": "OPP_BLACKBELT"
+    },
+    {
+      "class": "JACK",
+      "id": "OPP_JACK",
+      "mode": "register",
+      "name": "JACKY",
+      "picLabel": "JackPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\jack.png",
+      "baseMoney": 50,
+      "partyTable": "JackData",
+      "partyCount": 1,
+      "aiMods": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "aiUses": 2,
+      "aiRoutine": "BlackbeltAI",
+      "aiClassAlias": "OPP_BLACKBELT"
+    },
+    {
+      "class": "JESSIE_JAMES",
+      "id": "OPP_JESSIE_JAMES",
+      "mode": "register",
+      "name": "JESSIE&JAMES",
+      "picLabel": "JessieJamesPic",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\jessiejames.png",
+      "baseMoney": 50,
+      "partyTable": "JessieJamesData",
+      "partyCount": 5,
+      "aiMods": [
+        1,
+        3
+      ],
+      "aiUses": 2,
+      "aiRoutine": "GenericAI",
+      "aiClassAlias": null
+    },
+    {
+      "class": "LEADER_GIOVANNI",
+      "id": "OPP_LEADER_GIOVANNI",
+      "mode": "register",
+      "name": "GIOVANNI",
+      "picLabel": "GiovanniPic2",
+      "picSource": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\gfx\\trainers\\giovanni2.png",
+      "baseMoney": 99,
+      "partyTable": "LeaderGiovanniData",
+      "partyCount": 1,
+      "aiMods": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "aiUses": 3,
+      "aiRoutine": "SabrinaAI",
+      "aiClassAlias": "OPP_SABRINA"
+    }
+  ],
+  "existingMapTrainerReplacementsEnabled": true,
+  "existingMapTrainerReplacements": [
+    {
+      "map": "BILLS_HOUSE",
+      "mapLabel": "BillsHouse",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\BillsHouse.asm",
+      "baseObjectCount": 3,
+      "kepObjectCount": 4,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "CELADON_MANSION_3F",
+      "mapLabel": "CeladonMansion3F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\CeladonMansion3F.asm",
+      "baseObjectCount": 4,
+      "kepObjectCount": 5,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "CELADON_POKECENTER",
+      "mapLabel": "CeladonPokecenter",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\CeladonPokecenter.asm",
+      "baseObjectCount": 4,
+      "kepObjectCount": 6,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "CERULEAN_GYM",
+      "mapLabel": "CeruleanGym",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\CeruleanGym.asm",
+      "baseObjectCount": 4,
+      "kepObjectCount": 5,
+      "replacements": [],
+      "deferred": [
+        {
+          "objectIndex": 4,
+          "reason": "KEP trainer occupies a base non-trainer slot; requires map/object port",
+          "toClass": "OPP_FIREFIGHTER",
+          "toParty": 1,
+          "baseObjectName": "CERULEANGYM_GYM_GUIDE"
+        }
+      ]
+    },
+    {
+      "map": "CERULEAN_POKECENTER",
+      "mapLabel": "CeruleanPokecenter",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\CeruleanPokecenter.asm",
+      "baseObjectCount": 4,
+      "kepObjectCount": 6,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "CINNABAR_ISLAND",
+      "mapLabel": "CinnabarIsland",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\CinnabarIsland.asm",
+      "baseObjectCount": 2,
+      "kepObjectCount": 3,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "CINNABAR_LAB",
+      "mapLabel": "CinnabarLab",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\CinnabarLab.asm",
+      "baseObjectCount": 1,
+      "kepObjectCount": 2,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "CINNABAR_LAB_FOSSIL_ROOM",
+      "mapLabel": "CinnabarLabFossilRoom",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\CinnabarLabFossilRoom.asm",
+      "baseObjectCount": 2,
+      "kepObjectCount": 1,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "CINNABAR_LAB_TRADE_ROOM",
+      "mapLabel": "CinnabarLabTradeRoom",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\CinnabarLabTradeRoom.asm",
+      "baseObjectCount": 3,
+      "kepObjectCount": 2,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "CINNABAR_POKECENTER",
+      "mapLabel": "CinnabarPokecenter",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\CinnabarPokecenter.asm",
+      "baseObjectCount": 4,
+      "kepObjectCount": 7,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "DAYCARE",
+      "mapLabel": "Daycare",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\Daycare.asm",
+      "baseObjectCount": 1,
+      "kepObjectCount": 6,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "DIGLETTS_CAVE_ROUTE_2",
+      "mapLabel": "DiglettsCaveRoute2",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\DiglettsCaveRoute2.asm",
+      "baseObjectCount": 1,
+      "kepObjectCount": 2,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "FIGHTING_DOJO",
+      "mapLabel": "FightingDojo",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\FightingDojo.asm",
+      "baseObjectCount": 7,
+      "kepObjectCount": 8,
+      "replacements": [
+        {
+          "objectIndex": 1,
+          "objectName": "FIGHTINGDOJO_KARATE_MASTER",
+          "fromClass": "OPP_BLACKBELT",
+          "fromParty": 1,
+          "toClass": "OPP_KOICHI",
+          "toParty": 1
+        },
+        {
+          "objectIndex": 2,
+          "objectName": "FIGHTINGDOJO_BLACKBELT1",
+          "fromClass": "OPP_BLACKBELT",
+          "fromParty": 2,
+          "toClass": "OPP_BLACKBELT",
+          "toParty": 3
+        },
+        {
+          "objectIndex": 3,
+          "objectName": "FIGHTINGDOJO_BLACKBELT2",
+          "fromClass": "OPP_BLACKBELT",
+          "fromParty": 3,
+          "toClass": "OPP_BLACKBELT",
+          "toParty": 4
+        },
+        {
+          "objectIndex": 4,
+          "objectName": "FIGHTINGDOJO_BLACKBELT3",
+          "fromClass": "OPP_BLACKBELT",
+          "fromParty": 4,
+          "toClass": "OPP_BLACKBELT",
+          "toParty": 2
+        },
+        {
+          "objectIndex": 5,
+          "objectName": "FIGHTINGDOJO_BLACKBELT4",
+          "fromClass": "OPP_BLACKBELT",
+          "fromParty": 5,
+          "toClass": "OPP_BLACKBELT",
+          "toParty": 1
+        }
+      ],
+      "deferred": []
+    },
+    {
+      "map": "FUCHSIA_CITY",
+      "mapLabel": "FuchsiaCity",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\FuchsiaCity.asm",
+      "baseObjectCount": 10,
+      "kepObjectCount": 12,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "FUCHSIA_POKECENTER",
+      "mapLabel": "FuchsiaPokecenter",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\FuchsiaPokecenter.asm",
+      "baseObjectCount": 4,
+      "kepObjectCount": 6,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "GAME_CORNER",
+      "mapLabel": "GameCorner",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\GameCorner.asm",
+      "baseObjectCount": 11,
+      "kepObjectCount": 12,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "INDIGO_PLATEAU_LOBBY",
+      "mapLabel": "IndigoPlateauLobby",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\IndigoPlateauLobby.asm",
+      "baseObjectCount": 5,
+      "kepObjectCount": 8,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "LAVENDER_POKECENTER",
+      "mapLabel": "LavenderPokecenter",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\LavenderPokecenter.asm",
+      "baseObjectCount": 4,
+      "kepObjectCount": 6,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "MT_MOON_B2F",
+      "mapLabel": "MtMoonB2F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\MtMoonB2F.asm",
+      "baseObjectCount": 9,
+      "kepObjectCount": 10,
+      "replacements": [],
+      "deferred": [
+        {
+          "objectIndex": 2,
+          "reason": "base trainer slot is no longer a trainer in KEP; requires map/object port",
+          "fromClass": "OPP_ROCKET",
+          "fromParty": 1,
+          "baseObjectName": "MTMOONB2F_ROCKET1"
+        }
+      ]
+    },
+    {
+      "map": "MT_MOON_POKECENTER",
+      "mapLabel": "MtMoonPokecenter",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\MtMoonPokecenter.asm",
+      "baseObjectCount": 6,
+      "kepObjectCount": 7,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "MUSEUM_1F",
+      "mapLabel": "Museum1F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\Museum1F.asm",
+      "baseObjectCount": 5,
+      "kepObjectCount": 6,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "MUSEUM_2F",
+      "mapLabel": "Museum2F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\Museum2F.asm",
+      "baseObjectCount": 5,
+      "kepObjectCount": 6,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "OAKS_LAB",
+      "mapLabel": "OaksLab",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\OaksLab.asm",
+      "baseObjectCount": 11,
+      "kepObjectCount": 8,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "PEWTER_CITY",
+      "mapLabel": "PewterCity",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\PewterCity.asm",
+      "baseObjectCount": 5,
+      "kepObjectCount": 4,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "PEWTER_POKECENTER",
+      "mapLabel": "PewterPokecenter",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\PewterPokecenter.asm",
+      "baseObjectCount": 4,
+      "kepObjectCount": 6,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "POKEMON_MANSION_1F",
+      "mapLabel": "PokemonMansion1F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\PokemonMansion1F.asm",
+      "baseObjectCount": 3,
+      "kepObjectCount": 3,
+      "replacements": [
+        {
+          "objectIndex": 1,
+          "objectName": "POKEMONMANSION1F_SCIENTIST",
+          "fromClass": "OPP_SCIENTIST",
+          "fromParty": 4,
+          "toClass": "OPP_SCIENTIST",
+          "toParty": 5
+        }
+      ],
+      "deferred": []
+    },
+    {
+      "map": "POKEMON_MANSION_B1F",
+      "mapLabel": "PokemonMansionB1F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\PokemonMansionB1F.asm",
+      "baseObjectCount": 8,
+      "kepObjectCount": 9,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "POKEMON_TOWER_7F",
+      "mapLabel": "PokemonTower7F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\PokemonTower7F.asm",
+      "baseObjectCount": 4,
+      "kepObjectCount": 3,
+      "replacements": [],
+      "deferred": [
+        {
+          "objectIndex": 1,
+          "reason": "base trainer slot is no longer a trainer in KEP; requires map/object port",
+          "fromClass": "OPP_ROCKET",
+          "fromParty": 19,
+          "baseObjectName": "POKEMONTOWER7F_ROCKET1"
+        },
+        {
+          "objectIndex": 2,
+          "reason": "base trainer slot is no longer a trainer in KEP; requires map/object port",
+          "fromClass": "OPP_ROCKET",
+          "fromParty": 20,
+          "baseObjectName": "POKEMONTOWER7F_ROCKET2"
+        },
+        {
+          "objectIndex": 3,
+          "reason": "base trainer slot is no longer a trainer in KEP; requires map/object port",
+          "fromClass": "OPP_ROCKET",
+          "fromParty": 21,
+          "baseObjectName": "POKEMONTOWER7F_ROCKET3"
+        }
+      ]
+    },
+    {
+      "map": "ROCKET_HIDEOUT_B4F",
+      "mapLabel": "RocketHideoutB4F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\RocketHideoutB4F.asm",
+      "baseObjectCount": 9,
+      "kepObjectCount": 9,
+      "replacements": [],
+      "deferred": [
+        {
+          "objectIndex": 2,
+          "reason": "base trainer slot is no longer a trainer in KEP; requires map/object port",
+          "fromClass": "OPP_ROCKET",
+          "fromParty": 16,
+          "baseObjectName": "ROCKETHIDEOUTB4F_ROCKET1"
+        },
+        {
+          "objectIndex": 3,
+          "reason": "base trainer slot is no longer a trainer in KEP; requires map/object port",
+          "fromClass": "OPP_ROCKET",
+          "fromParty": 17,
+          "baseObjectName": "ROCKETHIDEOUTB4F_ROCKET2"
+        }
+      ]
+    },
+    {
+      "map": "ROCK_TUNNEL_B1F",
+      "mapLabel": "RockTunnelB1F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\RockTunnelB1F.asm",
+      "baseObjectCount": 8,
+      "kepObjectCount": 13,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "ROCK_TUNNEL_POKECENTER",
+      "mapLabel": "RockTunnelPokecenter",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\RockTunnelPokecenter.asm",
+      "baseObjectCount": 4,
+      "kepObjectCount": 6,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "ROUTE_1",
+      "mapLabel": "Route1",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\Route1.asm",
+      "baseObjectCount": 2,
+      "kepObjectCount": 3,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "ROUTE_24",
+      "mapLabel": "Route24",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\Route24.asm",
+      "baseObjectCount": 8,
+      "kepObjectCount": 9,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "ROUTE_4",
+      "mapLabel": "Route4",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\Route4.asm",
+      "baseObjectCount": 3,
+      "kepObjectCount": 5,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "SAFARI_ZONE_EAST_REST_HOUSE",
+      "mapLabel": "SafariZoneEastRestHouse",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\SafariZoneEastRestHouse.asm",
+      "baseObjectCount": 3,
+      "kepObjectCount": 4,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "SAFFRON_POKECENTER",
+      "mapLabel": "SaffronPokecenter",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\SaffronPokecenter.asm",
+      "baseObjectCount": 4,
+      "kepObjectCount": 6,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "SILPH_CO_11F",
+      "mapLabel": "SilphCo11F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\SilphCo11F.asm",
+      "baseObjectCount": 5,
+      "kepObjectCount": 8,
+      "replacements": [
+        {
+          "objectIndex": 5,
+          "objectName": "SILPHCO11F_ROCKET2",
+          "fromClass": "OPP_ROCKET",
+          "fromParty": 40,
+          "toClass": "OPP_ROCKET",
+          "toParty": 41
+        }
+      ],
+      "deferred": [
+        {
+          "objectIndex": 4,
+          "reason": "base trainer slot is no longer a trainer in KEP; requires map/object port",
+          "fromClass": "OPP_ROCKET",
+          "fromParty": 41,
+          "baseObjectName": "SILPHCO11F_ROCKET1"
+        }
+      ]
+    },
+    {
+      "map": "SILPH_CO_1F",
+      "mapLabel": "SilphCo1F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\SilphCo1F.asm",
+      "baseObjectCount": 1,
+      "kepObjectCount": 2,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "SS_ANNE_1F_ROOMS",
+      "mapLabel": "SSAnne1FRooms",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\SSAnne1FRooms.asm",
+      "baseObjectCount": 11,
+      "kepObjectCount": 14,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "SS_ANNE_2F",
+      "mapLabel": "SSAnne2F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\SSAnne2F.asm",
+      "baseObjectCount": 2,
+      "kepObjectCount": 2,
+      "replacements": [
+        {
+          "objectIndex": 2,
+          "objectName": "SSANNE2F_RIVAL",
+          "fromClass": "OPP_RIVAL1",
+          "fromParty": 1,
+          "toClass": "OPP_RIVAL2",
+          "toParty": 1
+        }
+      ],
+      "deferred": []
+    },
+    {
+      "map": "SS_ANNE_2F_ROOMS",
+      "mapLabel": "SSAnne2FRooms",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\SSAnne2FRooms.asm",
+      "baseObjectCount": 13,
+      "kepObjectCount": 15,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "SS_ANNE_B1F_ROOMS",
+      "mapLabel": "SSAnneB1FRooms",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\SSAnneB1FRooms.asm",
+      "baseObjectCount": 11,
+      "kepObjectCount": 13,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "SS_ANNE_BOW",
+      "mapLabel": "SSAnneBow",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\SSAnneBow.asm",
+      "baseObjectCount": 5,
+      "kepObjectCount": 7,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "VERMILION_CITY",
+      "mapLabel": "VermilionCity",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\VermilionCity.asm",
+      "baseObjectCount": 6,
+      "kepObjectCount": 8,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "VERMILION_POKECENTER",
+      "mapLabel": "VermilionPokecenter",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\VermilionPokecenter.asm",
+      "baseObjectCount": 4,
+      "kepObjectCount": 6,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "VICTORY_ROAD_2F",
+      "mapLabel": "VictoryRoad2F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\VictoryRoad2F.asm",
+      "baseObjectCount": 13,
+      "kepObjectCount": 14,
+      "replacements": [
+        {
+          "objectIndex": 1,
+          "objectName": "VICTORYROAD2F_HIKER",
+          "fromClass": "OPP_BLACKBELT",
+          "fromParty": 9,
+          "toClass": "OPP_BLACKBELT",
+          "toParty": 8
+        }
+      ],
+      "deferred": []
+    },
+    {
+      "map": "VIRIDIAN_FOREST_NORTH_GATE",
+      "mapLabel": "ViridianForestNorthGate",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\ViridianForestNorthGate.asm",
+      "baseObjectCount": 2,
+      "kepObjectCount": 3,
+      "replacements": [],
+      "deferred": []
+    },
+    {
+      "map": "VIRIDIAN_GYM",
+      "mapLabel": "ViridianGym",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\ViridianGym.asm",
+      "baseObjectCount": 11,
+      "kepObjectCount": 11,
+      "replacements": [
+        {
+          "objectIndex": 1,
+          "objectName": "VIRIDIANGYM_GIOVANNI",
+          "fromClass": "OPP_GIOVANNI",
+          "fromParty": 3,
+          "toClass": "OPP_LEADER_GIOVANNI",
+          "toParty": 1
+        },
+        {
+          "objectIndex": 3,
+          "objectName": "VIRIDIANGYM_HIKER1",
+          "fromClass": "OPP_BLACKBELT",
+          "fromParty": 6,
+          "toClass": "OPP_BLACKBELT",
+          "toParty": 5
+        },
+        {
+          "objectIndex": 5,
+          "objectName": "VIRIDIANGYM_HIKER2",
+          "fromClass": "OPP_BLACKBELT",
+          "fromParty": 7,
+          "toClass": "OPP_BLACKBELT",
+          "toParty": 6
+        },
+        {
+          "objectIndex": 7,
+          "objectName": "VIRIDIANGYM_HIKER3",
+          "fromClass": "OPP_BLACKBELT",
+          "fromParty": 8,
+          "toClass": "OPP_BLACKBELT",
+          "toParty": 7
+        }
+      ],
+      "deferred": []
+    },
+    {
+      "map": "VIRIDIAN_POKECENTER",
+      "mapLabel": "ViridianPokecenter",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\ViridianPokecenter.asm",
+      "baseObjectCount": 4,
+      "kepObjectCount": 6,
+      "replacements": [],
+      "deferred": []
+    }
+  ],
+  "deferredTrainerObjectsOnNewMaps": [
+    {
+      "mapLabel": "BrunswickGlade",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\BrunswickGlade.asm",
+      "trainerObjects": [
+        {
+          "objectIndex": 1,
+          "trainerClass": "OPP_COOLTRAINER_F",
+          "trainerParty": 6
+        },
+        {
+          "objectIndex": 2,
+          "trainerClass": "OPP_GENTLEMAN",
+          "trainerParty": 6
+        },
+        {
+          "objectIndex": 3,
+          "trainerClass": "OPP_BEAUTY",
+          "trainerParty": 19
+        },
+        {
+          "objectIndex": 4,
+          "trainerClass": "OPP_COOLTRAINER_M",
+          "trainerParty": 13
+        }
+      ]
+    },
+    {
+      "mapLabel": "BrunswickTrail",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\BrunswickTrail.asm",
+      "trainerObjects": [
+        {
+          "objectIndex": 2,
+          "trainerClass": "OPP_BIRD_KEEPER",
+          "trainerParty": 12
+        },
+        {
+          "objectIndex": 3,
+          "trainerClass": "OPP_BEAUTY",
+          "trainerParty": 16
+        },
+        {
+          "objectIndex": 4,
+          "trainerClass": "OPP_FISHER",
+          "trainerParty": 13
+        }
+      ]
+    },
+    {
+      "mapLabel": "CelesteHillCave",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\CelesteHillCave.asm",
+      "trainerObjects": [
+        {
+          "objectIndex": 1,
+          "trainerClass": "OPP_BEAUTY",
+          "trainerParty": 17
+        },
+        {
+          "objectIndex": 2,
+          "trainerClass": "OPP_COOLTRAINER_M",
+          "trainerParty": 12
+        }
+      ]
+    },
+    {
+      "mapLabel": "CelesteHillOutside",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\CelesteHillOutside.asm",
+      "trainerObjects": [
+        {
+          "objectIndex": 1,
+          "trainerClass": "OPP_BEAUTY",
+          "trainerParty": 18
+        },
+        {
+          "objectIndex": 2,
+          "trainerClass": "OPP_COOLTRAINER_M",
+          "trainerParty": 14
+        },
+        {
+          "objectIndex": 3,
+          "trainerClass": "OPP_GENTLEMAN",
+          "trainerParty": 7
+        }
+      ]
+    },
+    {
+      "mapLabel": "CinnabarVolcanoFloors",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\CinnabarVolcanoFloors.asm",
+      "trainerObjects": [
+        {
+          "objectIndex": 1,
+          "trainerClass": "OPP_FIREFIGHTER",
+          "trainerParty": 3
+        },
+        {
+          "objectIndex": 2,
+          "trainerClass": "OPP_FIREFIGHTER",
+          "trainerParty": 4
+        },
+        {
+          "objectIndex": 3,
+          "trainerClass": "OPP_FIREFIGHTER",
+          "trainerParty": 5
+        },
+        {
+          "objectIndex": 4,
+          "trainerClass": "OPP_SCIENTIST",
+          "trainerParty": 9
+        }
+      ]
+    },
+    {
+      "mapLabel": "SilphGauntlet1F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\SilphGauntlet1F.asm",
+      "trainerObjects": [
+        {
+          "objectIndex": 1,
+          "trainerClass": "OPP_YOUNGSTER",
+          "trainerParty": 13
+        },
+        {
+          "objectIndex": 2,
+          "trainerClass": "OPP_BUG_CATCHER",
+          "trainerParty": 12
+        },
+        {
+          "objectIndex": 3,
+          "trainerClass": "OPP_STUDENT",
+          "trainerParty": 3
+        },
+        {
+          "objectIndex": 4,
+          "trainerClass": "OPP_JR_TRAINER_M",
+          "trainerParty": 6
+        },
+        {
+          "objectIndex": 5,
+          "trainerClass": "OPP_JR_TRAINER_F",
+          "trainerParty": 25
+        },
+        {
+          "objectIndex": 6,
+          "trainerClass": "OPP_BIRD_KEEPER",
+          "trainerParty": 13
+        }
+      ]
+    },
+    {
+      "mapLabel": "SilphGauntlet2F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\SilphGauntlet2F.asm",
+      "trainerObjects": [
+        {
+          "objectIndex": 1,
+          "trainerClass": "OPP_LASS",
+          "trainerParty": 19
+        },
+        {
+          "objectIndex": 2,
+          "trainerClass": "OPP_HIKER",
+          "trainerParty": 15
+        },
+        {
+          "objectIndex": 3,
+          "trainerClass": "OPP_SUPER_NERD",
+          "trainerParty": 8
+        },
+        {
+          "objectIndex": 4,
+          "trainerClass": "OPP_POKEMANIAC",
+          "trainerParty": 8
+        },
+        {
+          "objectIndex": 5,
+          "trainerClass": "OPP_BEAUTY",
+          "trainerParty": 11
+        },
+        {
+          "objectIndex": 6,
+          "trainerClass": "OPP_BLACKBELT",
+          "trainerParty": 9
+        }
+      ]
+    },
+    {
+      "mapLabel": "SilphGauntlet3F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\SilphGauntlet3F.asm",
+      "trainerObjects": [
+        {
+          "objectIndex": 1,
+          "trainerClass": "OPP_SAILOR",
+          "trainerParty": 9
+        },
+        {
+          "objectIndex": 2,
+          "trainerClass": "OPP_FIREFIGHTER",
+          "trainerParty": 2
+        },
+        {
+          "objectIndex": 3,
+          "trainerClass": "OPP_GENTLEMAN",
+          "trainerParty": 4
+        },
+        {
+          "objectIndex": 4,
+          "trainerClass": "OPP_ENGINEER",
+          "trainerParty": 4
+        },
+        {
+          "objectIndex": 5,
+          "trainerClass": "OPP_ROCKER",
+          "trainerParty": 3
+        },
+        {
+          "objectIndex": 6,
+          "trainerClass": "OPP_FISHER",
+          "trainerParty": 12
+        }
+      ]
+    },
+    {
+      "mapLabel": "SilphGauntlet4F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\SilphGauntlet4F.asm",
+      "trainerObjects": [
+        {
+          "objectIndex": 1,
+          "trainerClass": "OPP_SCIENTIST",
+          "trainerParty": 1
+        },
+        {
+          "objectIndex": 2,
+          "trainerClass": "OPP_GAMBLER",
+          "trainerParty": 6
+        },
+        {
+          "objectIndex": 3,
+          "trainerClass": "OPP_ROCKET",
+          "trainerParty": 22
+        },
+        {
+          "objectIndex": 4,
+          "trainerClass": "OPP_BIKER",
+          "trainerParty": 16
+        },
+        {
+          "objectIndex": 5,
+          "trainerClass": "OPP_BURGLAR",
+          "trainerParty": 1
+        },
+        {
+          "objectIndex": 6,
+          "trainerClass": "OPP_CHANNELER",
+          "trainerParty": 7
+        }
+      ]
+    },
+    {
+      "mapLabel": "SilphGauntlet5F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\SilphGauntlet5F.asm",
+      "trainerObjects": [
+        {
+          "objectIndex": 1,
+          "trainerClass": "OPP_JUGGLER",
+          "trainerParty": 6
+        },
+        {
+          "objectIndex": 2,
+          "trainerClass": "OPP_PSYCHIC_TR",
+          "trainerParty": 5
+        },
+        {
+          "objectIndex": 3,
+          "trainerClass": "OPP_CUE_BALL",
+          "trainerParty": 10
+        },
+        {
+          "objectIndex": 4,
+          "trainerClass": "OPP_SWIMMER",
+          "trainerParty": 16
+        },
+        {
+          "objectIndex": 5,
+          "trainerClass": "OPP_TAMER",
+          "trainerParty": 6
+        },
+        {
+          "objectIndex": 6,
+          "trainerClass": "OPP_COOLTRAINER_M",
+          "trainerParty": 4
+        },
+        {
+          "objectIndex": 7,
+          "trainerClass": "OPP_COOLTRAINER_F",
+          "trainerParty": 4
+        }
+      ]
+    },
+    {
+      "mapLabel": "SilphGauntlet6F",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\SilphGauntlet6F.asm",
+      "trainerObjects": [
+        {
+          "objectIndex": 1,
+          "trainerClass": "OPP_BROCK",
+          "trainerParty": 9
+        },
+        {
+          "objectIndex": 2,
+          "trainerClass": "OPP_MISTY",
+          "trainerParty": 9
+        },
+        {
+          "objectIndex": 3,
+          "trainerClass": "OPP_LT_SURGE",
+          "trainerParty": 9
+        },
+        {
+          "objectIndex": 4,
+          "trainerClass": "OPP_ERIKA",
+          "trainerParty": 9
+        },
+        {
+          "objectIndex": 5,
+          "trainerClass": "OPP_KOGA",
+          "trainerParty": 9
+        },
+        {
+          "objectIndex": 6,
+          "trainerClass": "OPP_SABRINA",
+          "trainerParty": 9
+        },
+        {
+          "objectIndex": 7,
+          "trainerClass": "OPP_BLAINE",
+          "trainerParty": 9
+        }
+      ]
+    },
+    {
+      "mapLabel": "ViridianPreGym",
+      "source": "C:\\Users\\hanan\\Documents\\GitHub\\kep-hack\\data\\maps\\objects\\ViridianPreGym.asm",
+      "trainerObjects": [
+        {
+          "objectIndex": 1,
+          "trainerClass": "OPP_STUDENT",
+          "trainerParty": 1
+        },
+        {
+          "objectIndex": 2,
+          "trainerClass": "OPP_STUDENT",
+          "trainerParty": 2
+        },
+        {
+          "objectIndex": 3,
+          "trainerClass": "OPP_YUJIROU",
+          "trainerParty": 1
+        }
+      ]
+    }
+  ],
+  "unknownTrainerReferences": []
+}

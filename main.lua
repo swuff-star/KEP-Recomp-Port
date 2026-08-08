@@ -39,13 +39,8 @@ return function(mod)
     loadContent(mod, "content/types.lua")
     loadContent(mod, "content/moves.lua")
 
-    loadContent(mod, "content/pokedex.lua")
-
-    loadContent(mod, "content/pokemon/kleavor.lua")
-    loadContent(mod, "content/pokemon/scyther.lua")
-
-    loadContent(mod, "content/pokemon/gorochu.lua")
-    loadContent(mod, "content/pokemon/raichu.lua")
-
-    loadContent(mod, "content/debug/gorochu_route1.lua")
+    loadContent(mod, "content/pokemon/generated/init.lua")
+    loadContent(mod, "content/encounters/generated/init.lua")
+    loadContent(mod, "content/trainers/generated/init.lua")
+    loadContent(mod, "content/moves/generated/presentation.lua")
 end

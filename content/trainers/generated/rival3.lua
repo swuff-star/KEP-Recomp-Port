@@ -1,0 +1,92 @@
+return function(mod)
+    mod.content.trainers:patch("OPP_RIVAL3", {
+        name = "RIVAL3",
+        pic = mod.assets:path("assets/trainers/generated/rival3.png"),
+        baseMoney = 99,
+
+        parties = {
+            {
+                { level = 59, species = "PIDGEOT" },
+                { level = 60, species = "ALAKAZAM" },
+                { level = 59, species = "RHYPERIOR" },
+                { level = 61, species = "ARCANINE" },
+                { level = 61, species = "EXEGGUTOR" },
+                { level = 63, species = "TOTARTLE" },
+            },
+            {
+                { level = 59, species = "PIDGEOT" },
+                { level = 60, species = "ALAKAZAM" },
+                { level = 59, species = "RHYPERIOR" },
+                { level = 61, species = "GYARADOS" },
+                { level = 61, species = "ARCANINE" },
+                { level = 63, species = "VENUSAUR" },
+            },
+            {
+                { level = 59, species = "PIDGEOT" },
+                { level = 60, species = "ALAKAZAM" },
+                { level = 59, species = "RHYPERIOR" },
+                { level = 61, species = "EXEGGUTOR" },
+                { level = 61, species = "GYARADOS" },
+                { level = 63, species = "CHARIZARD" },
+            },
+            {
+                { level = 59, species = "SANDSLASH" },
+                { level = 60, species = "ALAKAZAM" },
+                { level = 59, species = "EXEGGUTOR" },
+                { level = 61, species = "MAGNEZONE" },
+                { level = 61, species = "NINETALES" },
+                { level = 63, species = "UMBREON" },
+            },
+            {
+                { level = 59, species = "SANDSLASH" },
+                { level = 60, species = "ALAKAZAM" },
+                { level = 59, species = "EXEGGUTOR" },
+                { level = 61, species = "NINETALES" },
+                { level = 61, species = "CLOYSTER" },
+                { level = 63, species = "GOROCHU" },
+            },
+            {
+                { level = 82, species = "TRICULES" },
+                { level = 83, species = "ALAKAZAM" },
+                { level = 82, species = "IGUANARCH" },
+                { level = 83, species = "ARCANINE" },
+                { level = 83, species = "EXEGGUTOR" },
+                { level = 85, species = "TOTARTLE" },
+            },
+            {
+                { level = 82, species = "TRICULES" },
+                { level = 83, species = "ALAKAZAM" },
+                { level = 82, species = "IGUANARCH" },
+                { level = 83, species = "GYARADOS" },
+                { level = 83, species = "ARCANINE" },
+                { level = 85, species = "VENUSAUR" },
+            },
+            {
+                { level = 82, species = "TRICULES" },
+                { level = 83, species = "ALAKAZAM" },
+                { level = 82, species = "IGUANARCH" },
+                { level = 83, species = "EXEGGUTOR" },
+                { level = 83, species = "GYARADOS" },
+                { level = 85, species = "CHARIZARD" },
+            },
+            {
+                { level = 82, species = "GUARDIA" },
+                { level = 83, species = "ALAKAZAM" },
+                { level = 82, species = "TANGROWTH" },
+                { level = 83, species = "MAGNEZONE" },
+                { level = 83, species = "NINETALES" },
+                { level = 85, species = "UMBREON" },
+            },
+            {
+                { level = 82, species = "GUARDIA" },
+                { level = 83, species = "ALAKAZAM" },
+                { level = 82, species = "TANGROWTH" },
+                { level = 83, species = "NINETALES" },
+                { level = 83, species = "CLOYSTER" },
+                { level = 85, species = "GOROCHU" },
+            },
+        },
+
+        aiMods = { 1, 2, 3, 4 },
+    })
+end
