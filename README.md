@@ -1,5 +1,5 @@
 # KEP Port Overview
-an unofficial port of "Kanto Expansion Pak"!!! i do not know how "complete" this ever truly will be, and it may deviate from the source in ways where it makes sense to take advantage of the recomps' features (e.g. including the expanded baby dex, cutting specific fixes in favor of letting users pick their own from other mods), but the overall intent is to port the gameplay and story of KEP as 1:1 as possible.
+an unofficial port of "Kanto Expansion Pak"!!! made with permission of the KEP developers (thanks everyone 🫶) i do not know how "complete" this ever truly will be, and it may deviate from the source in ways where it makes sense to take advantage of the recomps' features (e.g. including the expanded baby dex, cutting specific fixes in favor of letting users pick their own from other mods), but the overall intent is to port the gameplay and story of KEP as 1:1 as possible.
 
 ## WHAT'S DONE SO FAR
 ✅ new pokemon data ported (bsts, movepools, sprites, cries, palettes, dex data ... all of it yippee)
